@@ -32,4 +32,4 @@ open limitation (no second-OEM physical device tested yet).
 
 ## Contact
 
-jhosophie@proton.me
+Open an issue on any of the repos above, or reach me through GitHub ([@sopi22](https://github.com/sopi22)).
