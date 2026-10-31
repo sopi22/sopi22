@@ -1,35 +1,37 @@
-# Jhoana Sophia Munar
+# Hi, I'm Jhoana Sophia Munar 👋
 
-Independent research on whether AI-system safety claims hold up when you
-actually check them, not just when you read them.
+I'm an IT student who likes building small tools that check whether things really work the
+way they say they do: AI model files, project notes, phones, even Windows itself.
 
-Each project below states a falsifiable hypothesis before running any
-code, and reports what the evidence supported — including when that's
-the null hypothesis. See each repo's `RESEARCH.md` for the full
-falsification report.
+My habit: before writing any code, I write down what would prove my idea wrong. Then I try to
+break my own tool on purpose, and I report what actually happened, including the parts that
+didn't work.
 
 ## Projects
 
-**[polygraph](https://github.com/sopi22/polygraph)** — checks an AI
-model checkpoint's own safety claim (e.g. "safetensors only, no
-pickle") against what it actually does when loaded inside an isolated
-sandbox. Static scanners never run the file; this does, because a
-declared format can be honest and still be malicious.
+**[StayGone](https://github.com/sopi22/StayGone)**: keeps removed Windows bloatware gone.
+Windows quietly reinstalls apps like Xbox or Clipchamp after updates; StayGone removes them
+again automatically, or asks you first. PowerShell, nothing to install.
 
-**[claim-card](https://github.com/sopi22/claim-card)** — tests whether
-epistemic-integrity violations in AI-agent-authored project docs (a
-locked term reused, a caveat dropped between a log and its summary) can
-be caught by deterministic, pattern-based text analysis instead of an
-LLM judge. Current finding: weakly supported, with a named
-generalization gap outside this project's own template family.
+**[polygraph](https://github.com/sopi22/polygraph)**: a lie detector for AI model files. It
+opens a model file inside a locked-down sandbox and compares what the file *says* it is with
+what it actually *does*. Its key finding: a file can be honestly labelled and still be malicious.
 
-**[foss-escape-architecture](https://github.com/sopi22/foss-escape-architecture)**
-(Pulse, Experiment 001) — represents software/environment compatibility
-assumptions as falsifiable, behaviorally-observable probes on Android,
-and tests whether that tells you anything conventional `getprop` /
-`dumpsys` metadata doesn't. Phase 1 closed, supported, with one named
-open limitation (no second-OEM physical device tested yet).
+**[chronobot](https://github.com/sopi22/chronobot)**: a Telegram reminder bot that never
+guesses your time. If "154" could mean 1:54 in the morning or the afternoon, it asks instead of picking one.
+Live on Vercel, sends real reminders.
+
+**[caveat-keeper](https://github.com/sopi22/caveat-keeper)**: catches the warnings that quietly
+disappear from project notes written by AI helpers, like a "only tested on one phone" note that
+never makes it into the final summary.
+
+**[phone-tryout](https://github.com/sopi22/phone-tryout)**: tries things out on a real Android
+phone instead of trusting what the phone reports. Tested on three devices.
+
+## Tools I use
+
+Python · PowerShell · Linux / WSL · Git & GitHub Actions · Telegram bots · Android (adb)
 
 ## Contact
 
-Open an issue on any of the repos above, or reach me through GitHub ([@sopi22](https://github.com/sopi22)).
+Open an issue on any of my repos, or reach me through GitHub ([@sopi22](https://github.com/sopi22)).
