@@ -13,6 +13,10 @@ didn't work.
 Windows quietly reinstalls apps like Xbox or Clipchamp after updates; StayGone removes them
 again automatically, or asks you first. PowerShell, nothing to install.
 
+**[RepoNudge](https://github.com/sopi22/RepoNudge)**: gives you a nudge when one of your GitHub
+repos needs attention: failing tests, unreleased work, waiting issues. Every finding comes with a
+plain "what to do" line, and on Windows it only notifies you about new problems.
+
 **[polygraph](https://github.com/sopi22/polygraph)**: a lie detector for AI model files. It
 opens a model file inside a locked-down sandbox and compares what the file *says* it is with
 what it actually *does*. Its key finding: a file can be honestly labelled and still be malicious.
