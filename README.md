@@ -1,6 +1,6 @@
-# Hi, I'm Jhoana Sophia Munar 👋
+# I'm Jhoana Sophia Munar 
 
-I'm an IT student who likes building small tools that check whether things really work the
+An IT student who likes building small tools that check whether things really work the
 way they say they do: AI model files, project notes, phones, even Windows itself.
 
 My habit: before writing any code, I write down what would prove my idea wrong. Then I try to
