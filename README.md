@@ -38,4 +38,8 @@ Python · PowerShell · Linux / WSL · Git & GitHub Actions · Telegram bots · 
 
 ## Contact
 
-Open an issue on any of my repos, or reach me through GitHub ([@sopi22](https://github.com/sopi22)).
+Email: [jhosophie@proton.me](mailto:jhosophie@proton.me)
+
+Or open an issue on any of my repos ([@sopi22](https://github.com/sopi22)).
+
+My page with all downloads: **[sopi22.github.io](https://sopi22.github.io)**
