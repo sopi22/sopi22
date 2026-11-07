@@ -17,6 +17,11 @@ again automatically, or asks you first. PowerShell, nothing to install.
 repos needs attention: failing tests, unreleased work, waiting issues. Every finding comes with a
 plain "what to do" line, and on Windows it only notifies you about new problems.
 
+**[joplin-reading-copy](https://github.com/sopi22/joplin-reading-copy)**: shares one Joplin
+notebook with your family as read-only PDFs, through a shared folder like Proton Drive. Private notes
+never leave the computer, and the copy updates itself every day with Windows Task Scheduler. In use
+for our family: about 70 notes.
+
 **[polygraph](https://github.com/sopi22/polygraph)**: a lie detector for AI model files. It
 opens a model file inside a locked-down sandbox and compares what the file *says* it is with
 what it actually *does*. Its key finding: a file can be honestly labelled and still be malicious.
@@ -34,7 +39,7 @@ phone instead of trusting what the phone reports. Tested on three devices.
 
 ## Tools I use
 
-Python · PowerShell · Linux / WSL · Git & GitHub Actions · Telegram bots · Android (adb)
+Python · PowerShell · Joplin · Linux / WSL · Git & GitHub Actions · Telegram bots · Android (adb)
 
 ## Contact
 
