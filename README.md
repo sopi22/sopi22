@@ -1,6 +1,6 @@
 # I'm Jhoana Sophia Munar
 
-IT student. I build small tools, then try to break them to see if they really work.
+IT student building small tools…
 
 ## Projects
 
